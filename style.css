@@ -2,7 +2,7 @@
   font-family: Ormont_Light;
   src: local(Ormont_Light), url('www.tjshaw.co.uk/font/Ormont_Light.ttf') format('opentype');
 }
-
+ /*********** Index Page *******************/
 HTML {
   background: url('images/bg.JPG');
   background-size:cover;
@@ -24,6 +24,15 @@ body {
   background-color: rgba(255, 255, 255, .3);
 }
 
+.logo {
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*************************** NAV ***********************/
 nav {
   text-align: center;
   font-family: 'Ormont_Light';
@@ -36,14 +45,7 @@ a {
   font-size: 25px;
 }
 
-.logo {
-  position: fixed;
-  width: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
+/************************** Footer ***************************/
 footer {
   position: absolute;
   font-family: 'Ormont_Light';
@@ -68,6 +70,16 @@ li {
   float: right;
   font-family: 'Ormont_Light';
   color: white;
+}
+ /********************** Fex Box *****************************/
+
+h1 {
+  font-family: 'Ormont_Light';
+  color: white;
+  font-size: 27px;
+  background-color: rgba(255, 0, 0, .3);
+  text-align: center;
+  padding: 10px;
 }
 
 .grid2x2 {
