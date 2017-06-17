@@ -36,9 +36,6 @@ a {
   font-size: 25px;
 }
 
-
-
-
 .logo {
   position: fixed;
   width: 50%;
@@ -71,4 +68,42 @@ li {
   float: right;
   font-family: 'Ormont_Light';
   color: white;
+}
+
+.grid2x2 {
+  height: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.grid2x2 > div {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+.grid2x2 > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box1 {
+  background-color: grey;
+  margin-left: 40px;
+
+}
+
+.box2 {
+  background-color: orange;
+}
+
+.box3 {
+  background-color: purple;
+  margin-left: 40px;
+}
+
+.box4 {
+  background-image: url('images/dragRace.png');
+  background-size: 100% 100%;
 }
