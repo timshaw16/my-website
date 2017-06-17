@@ -1,14 +1,28 @@
-body {
+HTML {
+  background: url('images/bg.JPG');
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  width:100%;
+  /*background-size: 100%;*/
   height: 100%;
-  margin: 0;
-  background-image: url('images/bg.JPG');
-  /*background-position: center;*/
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
 
-.overlay {
-  background-color: rgba(192, 192, 192, 0.5);
+body {
   width: 100%;
-  height: 100vh;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, .5);
+}
+
+.logo {
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
