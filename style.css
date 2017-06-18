@@ -2,14 +2,14 @@
   font-family: Ormont_Light;
   src: local(Ormont_Light), url('www.tjshaw.co.uk/font/Ormont_Light.ttf') format('opentype');
 }
- /*********** Index Page *******************/
+/*********** Index Page *******************/
 HTML {
   background: url('images/bg.JPG');
-  background-size:cover;
-  background-position:center center;
-  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
   width:100%;
-  /*background-size: 100%;*/
+  background-size: 100%;
   height: 100%;
   position: relative;
 }
@@ -21,7 +21,8 @@ body {
   top: 0;
   left: 0;
   margin: 0;
-  background-color: rgba(255, 255, 255, .3);
+  /*background-color: rgba(255, 255, 255, .3);*/
+  /*background-repeat: repeat;*/
 }
 
 .logo {
@@ -47,12 +48,7 @@ a {
 
 /************************** Footer ***************************/
 footer {
-  position: absolute;
-  font-family: 'Ormont_Light';
-  color: white;
-  bottom: 0;
-  width: 100%;
-
+margin-top: 630px;
 }
 
 .socialMediaBtn {
@@ -71,51 +67,99 @@ li {
   font-family: 'Ormont_Light';
   color: white;
 }
- /********************** Fex Box *****************************/
+/********************** Fex Box *****************************/
 
 h1 {
   font-family: 'Ormont_Light';
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Ormont_Light';
+  font-size: 15px;
+}
+
+.container {
+  position: relative;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(54, 25, 25, .8);
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
   color: white;
-  font-size: 27px;
-  background-color: rgba(255, 0, 0, .3);
-  text-align: center;
-  padding: 10px;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
-.grid2x2 {
-  height: 580px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-.grid2x2 > div {
-  display: flex;
-  flex-basis: calc(50% - 40px);
-  justify-content: center;
-  flex-direction: column;
-}
-.grid2x2 > div > div {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+
+
+/*.container {
+  position: relative;
+  width: 50%;
 }
 
-.box1 {
-  background-color: grey;
-  margin-left: 40px;
-
+.image {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-left: 25px;
 }
 
-.box2 {
-  background-color: orange;
+.overlay {
+  position: absolute;
+  background: rgba(54, 25, 25, .8);
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 80%;
+  height:0;
+  transition: .5s ease;
 }
 
-.box3 {
-  background-color: purple;
-  margin-left: 40px;
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
 }
 
-.box4 {
-  background-image: url('images/dragRace.png');
-  background-size: 100% 100%;
-}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
