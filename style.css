@@ -174,6 +174,7 @@ p {
 
 .aboutMe {
   background-color: rgba(0, 0, 0, .3);
+  display: block;
   width: 50%;
   height: 50%;
   position: absolute;
@@ -199,7 +200,55 @@ p {
 }
 
 .CV {
-float: right;
-color: white;
-font-size: 25px;
+  float: right;
+  color: white;
+  font-size: 25px;
+}
+
+/********* FORM **********/
+
+.formDiv {
+  background-color: rgba(0, 0, 0, .3);
+  display: block;
+  width: 50%;
+  height: 60%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.form {
+  width: 25%;
+  padding: 5%;
+}
+
+.input {
+  padding: 10px;
+  width: 197%;
+  font-family: 'Ormont_Light', sans-serif;
+  font-size: 15px;
+
+}
+textarea {
+  font-family: 'Ormont_Light', sans-serif;
+  resize: none;
+  height: 30vh;
+  width: 200%;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.button {
+  width: 212%;
+  padding: 5px;
+  margin-top: 10px;
+  border: 1px solid white;
+  background-color: white;
+  font-family: 'Ormont_Light', sans-serif;
+  font-size: 15px;
+  padding: 10px;
 }
