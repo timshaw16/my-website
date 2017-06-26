@@ -145,45 +145,26 @@ p {
   -ms-transform: translate(-50%, -50%);
 }
 
+/************* Tech *****************/
 
-
-/*.container {
-  position: relative;
-  width: 50%;
+.topDiv {
+  /*width: 100%;*/
+  margin-top: 5%;
+  margin-left: 287px;
+  margin-right: 287px;
 }
 
-.image {
-  display: block;
-  width: 80%;
-  height: auto;
-  margin-bottom: 10px;
-  margin-left: 25px;
+.topTech {
+  width: 8%;
+  height: 70px;
 }
 
-.overlay {
-  position: absolute;
-  background: rgba(54, 25, 25, .8);
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  width: 80%;
-  height:0;
-  transition: .5s ease;
+.techLi {
+  display: inline;
 }
 
-.container:hover .overlay {
-  bottom: 0;
-  height: 100%;
+.techUl {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .3);
+  padding: 8px;
 }
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}*/
