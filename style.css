@@ -1,18 +1,18 @@
 /*@font-face {
-  font-family: Ormont_Light;
-  src: local(Ormont_Light), url('www.tjshaw.co.uk/font/Ormont_Light.ttf') format('opentype');
+font-family: Ormont_Light;
+src: local(Ormont_Light), url('www.tjshaw.co.uk/font/Ormont_Light.ttf') format('opentype');
 }*/
 
 @font-face {
-	font-family: 'Ormont';
-	src: url('/fonts/Ormont_Light.eot');
-	src: url('/fonts/Ormont_Light.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/Ormont_Light.woff2') format('woff2'),
-		url('/fonts/Ormont_Light.woff') format('woff'),
-		url('/fonts/Ormont_Light.ttf') format('truetype'),
-		url('/fonts/Ormont_Light.svg#Ormont_Light') format('svg');
-	font-weight: 300;
-	font-style: normal;
+  font-family: 'Ormont';
+  src: url('/fonts/Ormont_Light.eot');
+  src: url('/fonts/Ormont_Light.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Ormont_Light.woff2') format('woff2'),
+  url('/fonts/Ormont_Light.woff') format('woff'),
+  url('/fonts/Ormont_Light.ttf') format('truetype'),
+  url('/fonts/Ormont_Light.svg#Ormont_Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
 }
 
 /*********** Index Page *******************/
@@ -91,7 +91,7 @@ li {
   font-family: 'Ormont_Light', sans-serif;
   color: white;
 }
-/********************** Fex Box *****************************/
+/********************** Fex Box GA Projects *****************************/
 
 h1 {
   font-family: 'Ormont_Light', sans-serif;
@@ -145,7 +145,7 @@ p {
   -ms-transform: translate(-50%, -50%);
 }
 
-/************* Tech *****************/
+/************* Tech GA Projects*****************/
 
 .topDiv {
   /*width: 100%;*/
@@ -167,4 +167,39 @@ p {
   text-align: center;
   background-color: rgba(0, 0, 0, .3);
   padding: 8px;
+}
+
+
+/***************** About Me Page ******************/
+
+.aboutMe {
+  background-color: rgba(0, 0, 0, .3);
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.aboutText {
+  font-family: 'Ormont_Light', sans-serif;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+
+}
+.photo {
+  width: 30%;
+  border-radius: 50%;
+  padding: 10px;
+  float: left;
+}
+
+.CV {
+float: right;
+color: white;
+font-size: 25px;
 }
