@@ -1,26 +1,18 @@
-/*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
-
- @font-face {
+ /*@font-face {
  	font-family: 'Ormont_Light';
- 	src: url('http://www.tjshaw.co.uk/font/Ormont_Light.eot');
- 	src: url('http://www.tjshaw.co.uk/font/Ormont_Light.eot?#iefix') format('embedded-opentype'),
- 		url('http://www.tjshaw.co.uk/font/Ormont_Light.woff2') format('woff2'),
- 		url('http://www.tjshaw.co.uk/font/Ormont_Light.woff') format('woff'),
- 		url('http://www.tjshaw.co.uk/font/Ormont_Light.ttf') format('truetype'),
- 		url('http://www.tjshaw.co.uk/font/Ormont_Light.svg#OrmontLight') format('svg');
+ 	src: url('www.tjshaw.co.uk/fonts/Ormont_Light.eot');
+ 	src: url('www.tjshaw.co.uk/fonts/Ormont_Light.eot?#iefix') format('embedded-opentype'),
+ 		url('www.tjshaw.co.uk/fonts/Ormont_Light.woff2') format('woff2'),
+ 		url('www.tjshaw.co.uk/fonts/Ormont_Light.woff') format('woff'),
+ 		url('www.tjshaw.co.uk/fonts/Ormont_Light.ttf') format('truetype'),
+ 		url('www.tjshaw.co.uk/fonts/Ormont_Light.svg#OrmontLight') format('svg');
  	font-weight: normal;
  	font-style: normal;
- }
-
-#8a8b8f
+ }*/
 
 body {
   overflow-x: hidden;
-  font-family: 'Ormont_Light', 'Ormont_Light', Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
 }
 .text-muted {
   color: #777777;
@@ -57,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:  'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -74,7 +66,7 @@ h6 {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family:  'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -118,7 +110,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: black;
   border-color: black;
-  font-family:  'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
@@ -167,7 +159,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: white;
-  font-family:  'Ormont_Light', "Kaushan Script", Helvetica, Arial, cursive;
+  font-family: 'Poiret One', cursive;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -181,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #fed136;
   border-color: #fed136;
-  font-family:  'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family:  'Ormont_Light', Montserrat, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -191,7 +183,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: black;
 }
 .navbar-custom .nav li a {
-  font-family:  'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -257,14 +249,14 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family:  'Ormont_Light', "Droid Serif", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Ormont_Light', Montserrat, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
@@ -278,14 +270,14 @@ header .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
-    font-family: 'Ormont_Light', "Droid Serif",Helvetica, Arial, sans-serif;
+    font-family: 'Poiret One', cursive;
     font-style: italic;
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+    font-family: 'Poiret One', cursive;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
@@ -303,7 +295,7 @@ section h2.section-heading {
 }
 section h3.section-subheading {
   font-size: 16px;
-  font-family: 'Ormont_Light', "Droid Serif", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
@@ -371,7 +363,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption p {
-  font-family: 'Ormont_Light', "Droid Serif", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   font-style: italic;
   font-size: 16px;
   margin: 0;
@@ -598,27 +590,27 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
@@ -632,14 +624,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: 'Ormont_Light', "Montserrat", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   text-transform: none;
 }
@@ -695,7 +687,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
-  font-family: 'Ormont_Light', "Droid Serif", Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', cursive;
   font-style: italic;
   font-size: 16px;
 }
