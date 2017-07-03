@@ -1,5 +1,5 @@
  /*@font-face {
- 	font-family: 'Ormont_Light';
+ 	font-family: 'Poiret One';
  	src: url('www.tjshaw.co.uk/fonts/Ormont_Light.eot');
  	src: url('www.tjshaw.co.uk/fonts/Ormont_Light.eot?#iefix') format('embedded-opentype'),
  		url('www.tjshaw.co.uk/fonts/Ormont_Light.woff2') format('woff2'),
@@ -173,7 +173,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #fed136;
   border-color: #fed136;
-  font-family:  'Ormont_Light', Montserrat, Helvetica, Arial, sans-serif;
+  font-family:  'Poiret One', Montserrat, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -256,7 +256,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: 'Ormont_Light', Montserrat, Helvetica, Arial, sans-serif;
+  font-family: 'Poiret One', Montserrat, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
